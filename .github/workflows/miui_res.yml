@@ -29,6 +29,7 @@ jobs:
         mkdir -p temp/res/
         cp -rf /tmp/git_push ./temp/res/drawable-xxhdpi/
         cp -rf addition/transform_config.xml ./temp
+        cp -rf addition/transform_config2.xml ./temp
         cd temp
         zip -r -9 icons.zip *  >/dev/null
         mv icons.zip icons
